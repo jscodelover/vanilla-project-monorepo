@@ -1,0 +1,17 @@
+{
+  "name": "vanilla-js-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-app:css": "pnpm --filter my-vanilla-project run build:css"
+  },
+  "keywords": [],
+  "author": "manisha basra",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^5.0.1",
+    "sass": "^1.64.0",
+    "typescript": "^5.1.6"
+  }
+}

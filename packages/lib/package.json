@@ -1,0 +1,17 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "manisha basra",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^5.0.1",
+    "sass": "^1.64.0",
+    "typescript": "^5.1.6"
+  }
+}
