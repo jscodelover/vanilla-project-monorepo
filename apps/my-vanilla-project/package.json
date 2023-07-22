@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "pnpm run rimraf dist",
-    "build:css": " pnpm run sass -w -c src:dist --style=compressed"
+    "clean": "pnpm rimraf dist",
+    "build:css": "pnpm clean && pnpm sass -w -c src:dist --style=compressed"
   },
   "keywords": [],
   "author": "manisha basra",
